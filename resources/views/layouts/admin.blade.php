@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{!!URL::to('/admin')!!}">Cinema Admin</a>
+                <a class="navbar-brand" href="{!!URL::to('/admin')!!}">CCMS David Amitin</a>
             </div>
            
 
@@ -62,25 +62,49 @@
                         </li>
                     @endif
                         <li>
-                            <a href="#"><i class="fa fa-film fa-fw"></i> Pelicula<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> Noticias<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="{!!URL::to('/pelicula/create')!!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
                                 </li>
                                 <li>
-                                    <a href="{!!URL::to('/pelicula')!!}"><i class='fa fa-list-ol fa-fw'></i> Peliculas</a>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-list-ol fa-fw'></i> Noticias</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#"><i class="fa fa-child fa-fw"></i> Genero<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-graduation-cap fa-fw"> </i> Cursos<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="{!!URL::to('/genero/create')!!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
                                 </li>
                                 <li>
-                                    <a href="{!!URL::to('/genero')!!}"><i class='fa fa-list-ol fa-fw'></i> Generos</a>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-list-ol fa-fw'></i> Cursos</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                         <li>
+                            <a href="#"><i class="fa fa-picture-o fa-fw"> </i> Galeria<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                </li>
+                                <li>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-list-ol fa-fw'></i> Fotos</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                         <li>
+                            <a href="#"><i class="fa fa-film fa-fw"> </i> Videos<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                </li>
+                                <li>
+                                    <a href="{!!URL::to('/admin')!!}"><i class='fa fa-list-ol fa-fw'></i> Videos</a>
                                 </li>
                             </ul>
                         </li>
