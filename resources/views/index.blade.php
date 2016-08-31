@@ -16,9 +16,9 @@
 						{!!Form::label('contrasena','Contraseña:')!!}	
 						{!!Form::password('password',['class'=>'form-control', 'placeholder'=>'Ingresa tu contraseña'])!!}
 					</div>
-					{!!Form::submit('Iniciar',['class'=>'btn btn-primary'])!!}
+					{!!Form::submit('Iniciar',['class'=>'btn btn-primary btn-block'])!!}
 				{!!Form::close()!!}
-				{!!link_to('password/email', $title = 'Olvidaste tu contraseña?', $attributes = null, $secure = null)!!}
+				
 				
       </form>
 
