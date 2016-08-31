@@ -5,7 +5,7 @@
 
 	<div class="container">
 
-      <form class="form-signin">
+      <div class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
         {!!Form::open(['route'=>'log.store', 'method'=>'POST'])!!}
 					<div class="form-group">
@@ -19,8 +19,7 @@
 					{!!Form::submit('Iniciar',['class'=>'btn btn-primary btn-block'])!!}
 				{!!Form::close()!!}
 				
-				
-      </form>
+		</div>		
 
     </div> <!-- /container -->
 

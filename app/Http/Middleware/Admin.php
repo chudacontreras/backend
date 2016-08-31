@@ -2,8 +2,10 @@
 
 namespace App\Http\Middleware;
 
-use Closure;
+use Illuminate\Contracts\Auth\Guard;
 
+use Closure;
+use Session;
 class Admin
 {
 
