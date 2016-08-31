@@ -41,5 +41,6 @@ class User extends Model implements AuthenticatableContract,
         if(!empty($valor)){
             $this->attributes['password'] = \Hash::make($valor);
         }
+        //listo
     }
 }
